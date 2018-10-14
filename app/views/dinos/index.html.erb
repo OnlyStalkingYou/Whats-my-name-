@@ -1,12 +1,11 @@
 <% @dinos.each do |dino| %>
-  <div>
-    <h1><%= dino.name %></h1><br />
-    <i><%= dino.pronunciation %></i><br />
-    <i><%= dino.era %></i><br />
-    <i><%= dino.inhabited %></i><br />
-    <i><%= dino.features %></i><br />
-    <p><%= dino.description %></p><br />
+  <div class="booyah-box col-10 offset-1">
+	  <h1><%= dino.name %></h1><br />
+	  <i><%= dino.pronunciation %></i><br />
+	  <i><%= dino.era %></i><br />
+	  <i><%= dino.inhabited %></i><br />
+	  <i><%= dino.features %></i><br /><br />
+	  <p><%= dino.description %></p><br />
   </div>
 
-  <hr />
 <% end %>
