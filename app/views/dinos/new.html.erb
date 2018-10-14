@@ -1,0 +1,13 @@
+<div class="booyah-box col-10 offset-1">
+  <h1>Enter Your Place Details</h1>
+  <%= simple_form_for @dino do |f| %>
+    <%= f.input :name %>
+    <%= f.input :pronunciation %>
+    <%= f.input :era %>
+    <%= f.input :inhabited %>
+    <%= f.input :features %>
+    <%= f.input :description %>
+    <br />
+    <%= f.submit 'Create', class: 'btn btn-primary' %>
+  <% end %>
+</div>
